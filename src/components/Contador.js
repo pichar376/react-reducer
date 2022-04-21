@@ -14,7 +14,7 @@ const reset=()=>dispatch({type:TYPES.RESET})
 const restar=()=>dispatch({type:TYPES.DECREMENT})
 const restar_5=()=>dispatch({type:TYPES.DECREMENT_5,payload:5})
   return (
-    <div>
+    <div style={{textAlign:"center"}}>
       <h1>{state.contador}</h1>
     <nav>
     <button onClick={restar}>-</button>
